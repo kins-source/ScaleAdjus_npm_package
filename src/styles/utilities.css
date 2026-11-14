@@ -1,0 +1,89 @@
+.sa-p-1 { padding: 10px; }
+.sa-p-2 { padding: 20px; }
+.sa-p-3 { padding: 30px; }
+.sa-p-4 { padding: 40px; }
+.sa-p-5 { padding: 50px; }
+
+.sa-m-1 { margin: 10px; }
+.sa-m-2 { margin: 20px; }
+.sa-m-3 { margin: 30px; }
+.sa-m-4 { margin: 40px; }
+.sa-m-5 { margin: 50px; }
+
+.sa-text-center { text-align: center; }
+.sa-text-left { text-align: left; }
+.sa-text-right { text-align: right; }
+
+.sa-hidden-mobile { display: block; }
+.sa-visible-mobile { display: none; }
+.sa-hidden-tablet { display: block; }
+.sa-visible-tablet { display: none; }
+.sa-hidden-desktop { display: block; }
+.sa-visible-desktop { display: none; }
+
+@media (max-width: 768px) {
+  .sa-hidden-mobile { display: none !important; }
+  .sa-visible-mobile { display: block !important; }
+  .sa-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .sa-hidden-tablet { display: none !important; }
+  .sa-visible-tablet { display: block !important; }
+  .sa-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .sa-hidden-desktop { display: none !important; }
+  .sa-visible-desktop { display: block !important; }
+  .sa-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media (min-width: 1601px) {
+  .sa-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+
+.sa-w-25 { width: 25%; }
+.sa-w-50 { width: 50%; }
+.sa-w-75 { width: 75%; }
+.sa-w-100 { width: 100%; }
+
+.sa-h-25 { height: 25%; }
+.sa-h-50 { height: 50%; }
+.sa-h-75 { height: 75%; }
+.sa-h-100 { height: 100%; }
+
+.sa-d-flex { display: flex; }
+.sa-d-grid { display: grid; }
+.sa-d-block { display: block; }
+.sa-d-inline-block { display: inline-block; }
+.sa-d-none { display: none; }
+
+.sa-justify-center { justify-content: center; }
+.sa-justify-between { justify-content: space-between; }
+.sa-justify-around { justify-content: space-around; }
+.sa-justify-evenly { justify-content: space-evenly; }
+
+.sa-align-center { align-items: center; }
+.sa-align-start { align-items: flex-start; }
+.sa-align-end { align-items: flex-end; }
+.sa-align-stretch { align-items: stretch; }
+
+.sa-gap-1 { gap: 10px; }
+.sa-gap-2 { gap: 20px; }
+.sa-gap-3 { gap: 30px; }
+.sa-gap-4 { gap: 40px; }
+.sa-gap-5 { gap: 50px; }
+
+.sa-relative { position: relative; }
+.sa-absolute { position: absolute; }
+.sa-fixed { position: fixed; }
+.sa-sticky { position: sticky; }

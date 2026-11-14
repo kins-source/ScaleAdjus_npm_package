@@ -1,0 +1,16 @@
+src/
+examples/
+coverage/
+node_modules/
+.babelrc
+.eslintrc
+.gitignore
+.prettierrc
+rollup.config.js
+tsconfig.json
+jest.config.js
+*.log
+*.map
+.DS_Store
+.vscode/
+.idea/
